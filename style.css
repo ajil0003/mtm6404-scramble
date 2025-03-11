@@ -1,0 +1,70 @@
+ .heading {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 30px 0;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.word-display {
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.input-box {
+    width: 400px;
+    height: 40px;
+    margin: 20px auto;
+    display: block;
+}
+
+.pass-button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 20px auto;
+    display: block;
+}
+
+.message {
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.message.correct { background-color: green; color: white; }
+.message.wrong { background-color: red; color: white; }
+.message.out-of-passes { background-color: blue; color: white; }
+
+.score-box { background-color: green; color: white; padding: 5px; border-radius: 5px; }
+.strike-box { background-color: red; color: white; padding: 5px; border-radius: 5px; }
+
+.word-box {
+    background-color: black;
+    padding: 40px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+.restart-button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: block;
+    margin: 20px auto;
+}
+ 
+ 
